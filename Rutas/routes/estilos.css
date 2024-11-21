@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    color: #ff1493; /* Color llamativo */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.calculadora {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ff7f50; /* Color coral */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#pantalla {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: right;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ff6347; /* Tomate */
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #333;
+}
+
+input[type="button"] {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #ff1493; /* Deep pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="button"]:hover {
+    background-color: #db0061; /* Pink más oscuro */
+    transform: scale(1.1);
+}
+
+input[type="button"]:active {
+    background-color: #b2004f; /* Más oscuro */
+    transform: scale(1);
+}
+
+input[type="button"].clear {
+    background-color: #ff4500; /* Rojo anaranjado */
+}
+
+input[type="button"].clear:hover {
+    background-color: #e03e00; /* Rojo más oscuro */
+}
+
+input[type="button"].equal {
+    background-color: #4caf50; /* Verde brillante */
+}
+
+input[type="button"].equal:hover {
+    background-color: #388e3c; /* Verde más oscuro */
+}
